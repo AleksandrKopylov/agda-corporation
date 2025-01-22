@@ -1,0 +1,28 @@
+.contact {
+    padding: 100px 0 50px 0;
+    min-height: 650px;
+    &__title {
+        text-align: center;
+    }
+    &__descr, &__timework {
+        color: #626262;
+        font-size: 16px;
+    }
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+    &__wrapper {
+        width: 515px;
+    }
+    a {
+        display: block;
+        margin-top: 30px;
+        color: $main-color;
+    }
+    &__timework {
+        margin-top: 30px;
+    }
+}
+

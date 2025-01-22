@@ -1,0 +1,47 @@
+.about {
+    position: relative;
+    min-height: 1100px;
+    margin-top: 150px;
+    &__title {
+        text-align: center;
+        font-size: 36px;
+    }
+    &__subtitle {
+        text-align: center;
+        margin-top: 15px;
+        font-size: 20px;
+        color: #626262;
+    }
+    &__wrapper {
+        display: flex;
+        margin-top: 40px;
+    }
+    &__img {
+        height: auto;
+        max-width: 650px;
+    }
+    &__text {
+        &_title {
+            color: $main-color;
+        }
+    }    
+    &__descr {
+        margin-top: 25px;
+        font-size: 16px;
+        color: #626262;
+        li {
+            list-style-type: none;
+        }
+    }
+    &__info {
+        width: 650px;
+        &_title {
+            margin-top: 25px;
+            color: $main-color;
+        }
+        &_text {
+            margin-top: 10px;
+            color: #626262;
+        }
+    }
+}

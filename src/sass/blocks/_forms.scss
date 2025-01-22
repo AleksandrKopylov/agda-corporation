@@ -1,0 +1,46 @@
+.feed-form {
+    display: flex;
+    flex-direction: column;
+    width: 515px;
+    input {
+        border: 2px solid #b2a8c6;
+        font-size: 16px;
+        color: #626262;
+        padding: 10px;
+        border-radius: 15px;
+        margin-top: 20px;
+        &:nth-child(1) {
+            margin-top: 0;
+        }
+    }
+    button {
+        position: relative;
+        border: 2px solid $main-color;
+        background-color: $main-color;
+        font-size: 16px;
+        color: #fff;
+        border-radius: 15px;
+        width: 250px;
+        left: 26%;
+        height: 50px;
+        &:hover {
+            background-color: #fff;
+            color: #626262;
+            transition: 0.7s;
+        }
+    }
+}
+
+
+textarea {
+    resize: none;
+    min-height: 215px;
+    border: 2px solid #b2a8c6;
+    font-size: 16px;
+    color: #626262;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+

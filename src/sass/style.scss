@@ -1,0 +1,27 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'base/variables';
+@import 'base/mixins';
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; 
+  }
+
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+@import 'blocks/head';
+@import 'blocks/carousel';
+@import 'blocks/catalog';
+@import 'blocks/about';
+@import 'blocks/gallery';
+@import 'blocks/contact';
+@import 'blocks/forms';
+@import 'blocks/media';
+
+
+

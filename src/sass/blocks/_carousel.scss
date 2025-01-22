@@ -1,0 +1,21 @@
+
+.carousel-item {
+        height: 100%;
+        width: 100%;
+}
+
+.carousel-fade {
+        position: relative;
+}
+
+.carousel-caption {
+        position: absolute;
+        height: 105px;
+        width: 100%;
+        background: rgba(178,168,198, 0.6);
+        font-size: 18px;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        
+}

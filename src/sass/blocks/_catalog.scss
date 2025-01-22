@@ -1,0 +1,115 @@
+.catalog {
+    margin-top: 50px;
+    min-height: 1500px;
+    &_title{
+        text-align: center;
+        font-size: 36px;
+    }
+    &_subtitle {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 20px;
+        color: #626262;
+    }
+    &__tabs {
+        display: flex;
+        margin-top: 45px;
+        margin-left: 50%;
+        min-width: 100px;
+        justify-content: space-between;
+        transform: translatex(-53%);
+    }
+    &__contant {
+        display: none;
+        &_active {
+            display: block;
+        }
+    }
+    &__tab {
+        height: 52px;
+        width: 180px;
+        height: 50px;
+        line-height: 45px;
+        text-align: center;
+        list-style-type: none;
+        background-color: $main-color;
+        color: #fff;
+        cursor: pointer;
+        &_left {
+            border-radius: 10px 0 0 10px;
+        }
+        &_right {
+            border-radius: 0 10px 10px 0;
+        }
+        &:hover {
+            border: 1px solid rgb(178,168,198);
+            background-color: #fff;
+            color: #000;
+            transition: 0.7s;
+        }
+        &_active {
+            color: #000;
+            background-color: #fff;
+            border: 1px solid rgb(178,168,198);
+        }
+    }
+    &__products {
+        margin-top: 35px;
+    }
+    &__card {
+        display: grid;
+        margin-top: 100px;
+        grid-template-columns: 250px 750px;
+        grid-template-rows: minmax(245px, auto);
+        grid-auto-rows: minmax(245px, auto);
+        img {
+            margin-top: 50%;
+        }
+        &:nth-child(1) {
+            margin-top: 50px;
+        }
+        &_title {
+            color: #555;
+            text-transform: uppercase;
+            font-size: 22px;
+        }
+        &_subtitle {
+            margin-top: 15px;
+            color: $main-color;
+            font-size: 18px;
+        }
+        &_wrapper {
+            color: #626262;
+            font-size: 16px;
+            border-bottom: 1px solid $main-color;
+            padding-bottom: 15px;
+        }
+    }
+}
+
+th {
+    padding: 15px;
+}
+
+.row-1 {
+    font-size: 16px;
+    line-height: 20px;
+    color: #626262;
+}
+
+.row-2 {
+    border-top: 1px solid #626262;
+    font-size: 14px;
+    color: #626262;
+}
+
+.row-3 {
+    border-top: 1px solid #626262;
+    font-size: 14px;
+    color: #626262;
+}
+
+td {
+    padding: 20px;
+}
+
