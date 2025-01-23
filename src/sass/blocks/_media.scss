@@ -1,34 +1,13 @@
 @media screen and (max-width: 1600px) {
-    .head {
-        &__list {
-            padding: 0 75px 0 600px;
-        }
-    }
+
 }
 
 @media screen and (max-width: 1440px) {
-    .head {
-        &__list {
-            padding: 0 140px 0 500px;
-        }
-        &__logo {
-            left: 200px;
-        }
-        &__link {
-            font-size: 14px;
-        }
-    }
+
 }
 
 @media screen and (max-width: 1024px) {
-    .head {
-        &__list {
-            padding: 0px 60px 0 250px;
-        }
-        &__logo {
-            left: 80px;
-        }
-    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -46,43 +25,6 @@
             height: 3px;
             width: 30px;
             background-color: $second-color;
-        }
-    }
-    .head {
-        &__list {
-            display: block;
-            padding: 0;
-        }
-        &__menu {
-            position: relative;
-            display: flex;
-            
-            top: 0;
-            left: -100%;
-            width: 100%;
-            height: 100vh;
-            z-index: 10;
-            visibility: hidden;
-            opacity: 0;
-            transition: 0.7s;
-
-            nav {
-                position: relative;
-                width: 100%;
-                height: 100vh;
-                background-color: #fff;
-                z-index: 10;
-                left: 0;
-            }
-    
-        }
-        &__logo {
-            position: relative;
-            img {
-                position: absolute;
-                left: 40%;
-                transform: translateX(-50%);
-            }
         }
     }
 }
