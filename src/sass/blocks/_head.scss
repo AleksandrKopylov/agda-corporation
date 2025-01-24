@@ -24,13 +24,15 @@
         }
     }
     &__link {
-        width: 150px;
+        width: 180px;
         height: 40px;
         text-align: center;
         line-height: 40px;
         border-radius: 10px;
+        font-size: 18px;
+        padding: 0 5px 0 5px;
         &:hover {
-            width: 150px;
+            width: 180px;
             height: 40px;
             background-color: $main-color;
             transition: 0.7s;

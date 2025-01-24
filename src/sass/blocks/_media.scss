@@ -9,10 +9,40 @@
 @media screen and (max-width: 1024px) {
     .head {
         &__list {
-            width: 660px;
+            width: 700px;
         }
         &__link {
             font-size: 14px;
+            width: 160px;
+            &:hover {
+                width: 160px;
+            }
+        }
+    }
+    .catalog {
+        &__card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img {
+                margin-top: 0;  
+            }
+        }
+        &__img {
+            width: 230px;
+            height: 100%;
+        }
+    }
+    .about {
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        &__info {
+            text-align: center;
+            margin: 0 auto;
         }
     }
 }
@@ -38,7 +68,6 @@
         &__menu {
             position: fixed;
             top: -100%;
-            /* left: -100%; */
             width: 100%;
             height: 100vh;
             z-index: 10;
@@ -95,5 +124,37 @@
             }
         }
     }
-   
 }
+
+@media screen and (max-width: 425px) {
+    .container {
+        max-width: 300px;
+    }
+    .about {
+        &__wrapper {
+            text-align: left;
+        }
+        &__info {
+            max-width: 300px;
+            text-align: left;
+        }
+        &__img {
+            height: 215px;
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .head {
+        &__block {
+            margin: 0 60px 0 60px;
+        }
+        &__link {
+            font-size: 18px;
+            &:hover {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
