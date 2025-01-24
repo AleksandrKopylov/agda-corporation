@@ -142,6 +142,11 @@
             height: 215px;
         }
     }
+    .gallery .row {
+        grid-template-columns: 1fr 1fr ;
+        // grid-template-rows: minmax(250px, 250px);
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
 }
 
 @media screen and (max-width: 320px) {
