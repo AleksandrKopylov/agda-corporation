@@ -1,12 +1,12 @@
 .footer {
-    height: 100px;
+    max-height: 100px;
     padding: 10px 0 10px 0;
     background-color: #EDEDED;
     &__list {
         display: flex;
         width: 450px;
         justify-content: space-between;
-        line-height: 80px;
+        line-height: 90px;
     }
     &__link {
         color: #555;
@@ -14,6 +14,7 @@
     &__info {
         display: flex;
         justify-content: space-between;
+        height: 90px;
     }
     &__img {
         height: 80px;
