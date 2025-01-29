@@ -217,6 +217,23 @@
             width: 402px;
         }
     }
+    .footer {
+        max-height: 193px;
+        &__info {
+            flex-direction: column;
+            height: 177px;
+        }
+        &__img {
+            width: 135px;
+            margin: 0 auto;
+        }
+        &__list {
+            width: 380px;
+        }    
+        &__link {
+            font-size: 14px;
+        }
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -240,6 +257,23 @@
         button {
             width: 345px;
         }
+    }
+    .footer {
+        max-height: 270px;
+        &__info {
+            height: 250px;
+        }
+        &__list {
+            width: 170px;
+            flex-direction: column;
+            text-align: center;
+            padding-left: 0;
+            line-height: 55px;
+        }
+        &__menu {
+            display: flex;
+            justify-content: center;
+        } 
     }
 }
 
