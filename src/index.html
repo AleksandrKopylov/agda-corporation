@@ -31,11 +31,18 @@
                 </div>
                   <nav>
                     <ul class="head__list">
-                        <li class="head__link"><a href="#catalog">Наші товари</a></li>
-                        <li class="head__link"><a href="#about">Про компанію</a></li>
-                        <li class="head__link"><a href="#gallery">Галерея</a></li>
-                        <li class="head__link"><a href="#contact">Зв'язатися з нами</a></li>
-                        <li class="head__link"><a href="#">Мова</a></li>
+                        <li class="head__link"><a href="#catalog" class="head_link" key="products">Наші товари</a></li>
+                        <li class="head__link"><a href="#about" class="head_link" key="about">Про компанію</a></li>
+                        <li class="head__link"><a href="#gallery" class="head_link" key="gallery">Галерея</a></li>
+                        <li class="head__link"><a href="#contact" class="head_link" key="contact">Зв'язатися з нами</a></li>
+                        <li class="head__link head__link_flags">
+                          <button id="ua" class="head__langbtn">
+                            <img src="img/flags/Ukraine.png" alt="Ukraine flag" class="head__lang_flag">
+                          </button>
+                          <button id="en" class="head__langbtn">
+                            <img src="img/flags/United_Kingdom.png" alt="United Kingdom flag" class="head__lang_flag">
+                          </button>
+                        </li>
                     </ul>
                 </nav>
                 </div>
@@ -686,6 +693,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/lang.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

@@ -23,6 +23,13 @@
             text-decoration: none;
         }
     }
+    &__lang {
+        &_flag {
+            height: 15px;
+            max-width: 100%;
+            margin-bottom: 2px;
+        }
+    }
     &__link {
         width: 180px;
         height: 40px;
@@ -41,5 +48,15 @@
                 color: #fff;
             }
         }
+        &_flags {
+            &:hover {
+                background-color: #fff;
+            } 
+        }
     }
+    &__langbtn {
+        border: none;
+        background-color: #fff;
+    }
+
 }
