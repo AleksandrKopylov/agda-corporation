@@ -36,7 +36,52 @@ $(document).ready(function(){
     toggleSlide('.catalog-item__link');
     toggleSlide('.catalog-item__back');
 
+  //modalconnection
+  $('[data-modal=connection]').on('click', function() {
+    $('.overlay, #connection').fadeIn();
+  });
+  $('.modalgallery__close').on('click', function() {
+    $('.overlay, #connection, #thanks').fadeOut('');
+  });
 
+  $('#connection-form').validate({
+    rules: {
+      name: "required",
+      email: {
+        required: true,
+        email: true
+      },
+      textarea: "required",
+    },
+    messages: {
+      name: "Будь ласка, введіть своє ім'я",
+      textarea: "Будь ласка, напишіть про що би ви хотіли дізнатися",
+      email: {
+        required: "Будь ласка, введіть адрус електронної пошти",
+        email: "Невірно введено електронну пошту"
+      }
+    }
+  });
+  $('#connection form').validate({
+    rules: {
+      name: "required",
+      email: {
+        required: true,
+        email: true
+      },
+      phone: "required",
+    },
+    messages: {
+      name: "Будь ласка, введіть своє ім'я",
+      phone: "Будь ласка, введіть ваш номер телефона",
+      email: {
+        required: "Будь ласка, введіть адрус електронної пошти",
+        email: "Невірно введено електронну пошту"
+      }
+    }
+  });
+
+  $('input[name=phone]').mask("+380 (99) 999-99-99");
 
 });
 
