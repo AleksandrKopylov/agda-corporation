@@ -5,6 +5,7 @@
     &__title {
         text-align: center;
         font-size: 36px;
+        line-height: 30px;
     }
     &__subtitle {
         text-align: center;
@@ -23,6 +24,7 @@
     &__text {
         &_title {
             color: $main-color;
+            line-height: 30px;
         }
     }    
     &__descr {
@@ -31,17 +33,18 @@
         color: #626262;
         li {
             list-style-type: none;
+            line-height: 15px;
         }
     }
     &__info {
         max-width: 650px;
         &_title {
-            margin-top: 25px;
             color: $main-color;
+            margin-top: 25px;
         }
         &_text {
-            margin-top: 10px;
             color: #626262;
+            line-height: 20px;
         }
     }
 }
