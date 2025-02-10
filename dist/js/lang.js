@@ -43,6 +43,9 @@ let arrLang = {   //language translation
         'about-info-text-1': "Natural raw materials, modern high-tech equipment and desire to create a tasty and healthy product contribute to make the sweets which are distinguished by their high quality, great taste and originality of execution.",
         'about-info-text-2': "Along with producing of popular assortment we constantly develop the new product’s production. We are listening to wishes of our clients. That is why the necessity of new product’s promotion or perfecting of existing design is defined by marketing researches and preliminary tasting by customers.",
         'about-info-text-3': "Any business is a business based on people. The business of Agda Corporation is based on talented people. The company is proud of its personnel – friendly team of professionals.",
+        //gallery
+        'gallery-title': "Gallery",
+        'gallery-subtitle': "Our products",
     },  
     //language translation
     'ua': {  //menu
@@ -87,7 +90,10 @@ let arrLang = {   //language translation
         'about-info-title-3': "Персонал",
         'about-info-text-1': "Натуральна сировина, сучасне високотехнологічне обладнання та бажання створити смачний та корисний продукт допомагають отримати ласощі, які вигідно відрізняють високу якість, чудовий смак та неординарність виконання.",
         'about-info-text-2': "Поряд із випуском марок, які вже завоювали популярність, ми постійно освоюємо виробництво нових продуктів. Ми прислухаємось до побажань наших клієнтів.",
-        'about-info-text-3': "Будь-який бізнес - це справа, побудована на людях. Бізнес АГДА Корпорейшн збудований на талановитих людях. Компанія пишається своїми співробітниками – дружною командою професіоналів!",       
+        'about-info-text-3': "Будь-який бізнес - це справа, побудована на людях. Бізнес АГДА Корпорейшн збудований на талановитих людях. Компанія пишається своїми співробітниками – дружною командою професіоналів!",
+        //gallery
+        'gallery-title': "Галерея",
+        'gallery-subtitle': "Наша продукція",       
     },
 }
 
