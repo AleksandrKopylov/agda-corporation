@@ -46,6 +46,11 @@ let arrLang = {   //language translation
         //gallery
         'gallery-title': "Gallery",
         'gallery-subtitle': "Our products",
+        //contacts
+        'contact-title': "Contact us",
+        'contact-descr': "Agda Corporation is a modern, dynamically developing enterprise, one of the largest producers of confectionery products in Kharkiv, Ukraine.",
+        'contact-timework': "Mon-Sun from 8 a.m. to 6 p.m",
+        'button-send': "Send",
     },  
     //language translation
     'ua': {  //menu
@@ -93,7 +98,12 @@ let arrLang = {   //language translation
         'about-info-text-3': "Будь-який бізнес - це справа, побудована на людях. Бізнес АГДА Корпорейшн збудований на талановитих людях. Компанія пишається своїми співробітниками – дружною командою професіоналів!",
         //gallery
         'gallery-title': "Галерея",
-        'gallery-subtitle': "Наша продукція",       
+        'gallery-subtitle': "Наша продукція",
+        //contacts
+        'contact-title': "Зв'язатися з нами",
+        'contact-descr': "АГДА Корпорейшн є сучасним підприємством, що динамічно розвивається, одним з найбільших виробників кондитерських виробів у м.Харків, Україна.",
+        'contact-timework': "ПН-НД з 8-00 до 18-00 годин",
+        'button-send': "Відправити",       
     },
 }
 
