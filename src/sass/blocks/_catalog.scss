@@ -87,6 +87,7 @@
             border: none;
             border-radius: 10px;
             transition: 0.5s;
+            bottom: 10px;
             &:hover {
                 box-shadow: 3px 3px 10px $main-color;
             }
@@ -162,6 +163,6 @@
             &:hover {
                 color: $second-color;
             }
-        }   
+        }  
     }
 }
